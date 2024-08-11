@@ -1,5 +1,3 @@
-import 'package:flutter/rendering.dart';
-
 /// method adalah funtion yang ada didalam kelas
 /// didalam method kita bisa menambahkan return velue dan parameter
 /// method bisa ditambahkan tanpa batas
