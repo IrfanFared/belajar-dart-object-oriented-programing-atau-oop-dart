@@ -4,8 +4,6 @@
 // ● Sederhananya, super digunakan untuk mengakses class parent
 // ● Tidak hanya method, field milik parent class pun bisa kita akses menggunakan kata kunci super
 
-import 'dart:ffi';
-
 //// ketika kita sudag terkajur melakukan overide tapi kita ingin mengases field yanag ada di class parent
 ///makan kita bisa mengunakan kata kunci super
 ///
