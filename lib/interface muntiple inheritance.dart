@@ -10,7 +10,7 @@ class Mobil {
   String nama = "";
 
   void drive() {
-    print("irfan ganten");
+    print("irfan ganteng");
   }
 
   int kecepatan() {
