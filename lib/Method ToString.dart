@@ -7,22 +7,21 @@
 // String dari Class yang kita bua
 
 class MyClass {
-  int value;
+  String? nama;
+  String? kelas;
 
-  MyClass(this.value);
+  MyClass(this.nama, this.kelas);
 
-  @override
   String toString() {
-    return 'Value: $value';
+    return "nama =  $nama , kelas = $kelas";
   }
 }
 
 void main() {
-  MyClass obj = MyClass(10);
-  print(obj.toString()); // Output: Value: 10
+  var myclass = MyClass("irfan", "kelas 12");
+  print(myclass.toString());
+  print(
+      myclass); // to string membuat kita menampilakna metod tanpa memangil metod lasung saja tampikan objeknya
 }
-
-
-
 // Di Dart, metode toString() dapat di-override dengan mendefinisikan kembali metode tersebut di dalam kelas.
 // Ketika print() dipanggil pada objek, metode toString() akan dipanggil secara otomatis untuk mengembalikan representasi string dari objek tersebut.
