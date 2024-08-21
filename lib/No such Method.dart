@@ -14,5 +14,5 @@ class Repository {
 
 void main() {
   dynamic repository = Repository("product");
-  repository.id("1234");
+  repository.id("123s4");
 }
