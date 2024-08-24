@@ -20,4 +20,4 @@ void main() {
 }
 
  // jado do  no such metod di abstrak artinya no such metod yang di batasi jika ada metod yang di ada di field paren makan bakalan ero
-// 
+// kalo di no such meto di  aabtrak class maka sebuha obejek tipe data boleh var
