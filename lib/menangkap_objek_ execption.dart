@@ -16,7 +16,8 @@ class Validation {
 void main() {
   try {
     Validation.validate("w", "");
-  } on ValidationException catch (eror) {
+  } on ValidationException catch (eror, stackTrace) {
     print('exception :${eror.masage}');
+    print('exception :${stackTrace.toString()}');
   }
 }
