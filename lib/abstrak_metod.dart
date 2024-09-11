@@ -1,8 +1,10 @@
 // saat kita membuat class yang abstract, kita bisa membuat abstract method juga di dalam class
 // abstract tersebut
-// ● Saat kita membuat sebuah abstract method, kita tidak boleh membuat block method untuk
+//  Saat kita membuat sebuah abstract method, kita tidak boleh membuat block method untuk
 // method tersebut
-// ● Artinya, abstract method wajib di override di class child
+//  Artinya, abstract method wajib di override di class child
+
+//Abstrak metode di Dart adalah sebuah metode (fungsi) yang dideklarasikan dalam sebuah kelas abstrak, tetapi tidak memiliki implementasi (body). Artinya, hanya "kerangka" atau "kontrak" metode yang didefinisikan, namun detail implementasinya diserahkan kepada kelas turunan (child class) untuk mengimplementasikannya.
 
 abstract class Animal {
   String? nama;

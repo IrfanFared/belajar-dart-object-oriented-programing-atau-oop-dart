@@ -4,7 +4,7 @@
 // ● Untuk menyembunyikan akses Field atau Method, kita bisa menambahkan _ (underscore) di awal
 // Field atau Method nya
 // ● Secara otomatis Field atau Method tersebut, hanya bisa di akses dari file tersebut, dan artinya
-// tidak bisa diakses dari luar file
+// tidak bisa diakses dari luar file.
 
 // kadang kita ingin metod atau field hanya bisa di akses di file tersebut artinya tidak bisa diakses dari luar field
 
