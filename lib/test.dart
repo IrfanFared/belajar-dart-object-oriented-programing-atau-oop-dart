@@ -33,4 +33,5 @@ class Square extends Shape {
 
 void main() {
   Circle circle = Circle(12);
+  print(circle);
 }
