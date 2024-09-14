@@ -1,5 +1,5 @@
 /// rediricring constuktor itu sama dengan defauld construktor
-///
+/// belum ada dokumentasi
 ///
 
 class Person {
