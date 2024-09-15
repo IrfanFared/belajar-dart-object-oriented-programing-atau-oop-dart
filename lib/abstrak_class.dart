@@ -4,6 +4,7 @@ abstract class Lokasi {
 
 class Daerah extends Lokasi {
   Daerah(String nama) {
+    // kita harus membuat class turunan untuk membuat objeknya
     this.nama = nama;
   }
 }
