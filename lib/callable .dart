@@ -16,7 +16,7 @@ class Greting {
 }
 
 void main() {
-  var grting = Greting();
+  var grting = Greting(); // -Irfan objek harus dibuat dulu
   grting("irfan", "kelas 7");
   // ketika di panggila otomatis metod dijalankan
 }
