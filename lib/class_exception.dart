@@ -12,5 +12,6 @@ class InsufficientFundsException implements Exception {
 
 void main() {
   var insufficientFundsException = InsufficientFundsException(1.2, 3.4);
+  // ignore: avoid_print
   print(insufficientFundsException.toString());
 }
