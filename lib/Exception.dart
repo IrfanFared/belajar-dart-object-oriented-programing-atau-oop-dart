@@ -18,5 +18,5 @@ class Validation {
 void main() {
   Validation.validate("w", "");
 
-  /// jika syarat dari if else tidak terpenuhi mesin akan memberitahu sebuah erro padah kode tersebut
+  /// jika syarat dari if else tidak terpenuhi mesin akan memberitahu sebuah error pada kode tersebut
 }
