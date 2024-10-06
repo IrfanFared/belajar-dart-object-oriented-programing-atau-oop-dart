@@ -17,7 +17,7 @@ class Student {
   static final Map<String, Student> _students = {};
 
   // Factory constructor
-  factory Student.create(String name, int age) {
+  factory Student.buat(String name, int age) {
     // Kalau sudah ada siswa dengan nama ini, langsung kembalikan objeknya
     if (_students.containsKey(name)) {
       return _students[name]!;
@@ -32,9 +32,9 @@ class Student {
 }
 
 void main() {
-  var student1 = Student.create("Alice", 16);
-  var student2 = Student.create("Bob", 17);
-  var student3 = Student.create(
+  var student1 = Student.buat("Alice", 16);
+  var student2 = Student.buat("Bob", 17);
+  var student3 = Student.buat(
       "Alice", 16); // Ini gak buat objek baru, ambil yang sudah ada
 
   print(student1 == student3);

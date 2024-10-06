@@ -1,0 +1,3 @@
+void Halo.del(){
+  
+}

@@ -10,7 +10,7 @@ class Person {
 }
 
 class Otherpeson {
-  String person = "irfan";
+  String person = "irfanf";
 }
 
 void main() {
