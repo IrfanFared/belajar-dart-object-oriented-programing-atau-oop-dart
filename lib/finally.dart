@@ -17,7 +17,7 @@ class Validation {
 
 void main() {
   try {
-    Validation.validate("w", "dsd");
+    Validation.validate("", "dsd");
   } on ValidationException catch (eror) {
     print('exception :${eror.masage}');
   } on Exception catch (eror) {

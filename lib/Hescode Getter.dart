@@ -32,4 +32,7 @@ class Person {
   int get hashCode => Object.hash(name, age);
 }
 
-void main() {}
+void main() {
+  var person = Person("irfan", 12);
+  print(" person ${person.hashCode}");
+}
