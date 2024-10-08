@@ -10,12 +10,13 @@ class Nama {
 }
 
 extension NamaBelakang on Nama {
-  void namabelakang(String nama) {
+  void depan(String nama) {
     print("Halo nama belakang saya adalah $nama");
   }
 }
 
 void main() {
   var classnama = Nama();
-  classnama.namabelakang("irfan");
+  classnama.depan("alla");
+  // Ekstensi metoda (disebut extension methods) di Dart adalah fitur yang memungkinkan developer untuk menambahkan metode baru ke kelas-kelas yang sudah ada tanpa perlu mengubah implementasi asli kelas tersebut. Ekstensi metode ini memungkinkan Anda untuk meningkatkan fungsionalitas suatu kelas tanpa harus membuat subkelas baru atau modifikasi kodenya langsung.
 }

@@ -20,6 +20,8 @@ class Student {
   factory Student.buat(String name, int age) {
     // Kalau sudah ada siswa dengan nama ini, langsung kembalikan objeknya
     if (_students.containsKey(name)) {
+      //Di Dart, key biasanya merujuk pada elemen yang digunakan dalam struktur data berbasis Map. Dalam konteks ini, kunci (key) adalah identifier unik yang digunakan untuk mengakses nilai (value) yang terkait di dalam map.
+      // Di Dart, containsKey adalah sebuah metode yang digunakan untuk memeriksa apakah sebuah kunci tertentu ada dalam objek Map. Metode ini sangat berguna ketika Anda ingin memastikan bahwa kunci yang ingin Anda akses sudah terdaftar dalam map sebelum melakukan operasi lebih lanjut.
       return _students[name]!;
     } else {
       // Kalau belum ada, buat siswa baru dan simpan
