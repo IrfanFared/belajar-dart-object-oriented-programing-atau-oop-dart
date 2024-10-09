@@ -9,22 +9,16 @@
 ///
 
 class Biodata {
-  int nomerAbsen() {
-    return 0;
-  }
+  String nama = "irfan";
 }
 
 class Absen extends Biodata {
-  int nomerAbsen() {
-    return 9;
-
-    int nomerabsesbiodata() {
-      return super.nomerAbsen();
-    }
+  void halo() {
+    print(nama);
   }
 }
 
 void main() {
   var absen = Absen();
-  print(absen.nomerAbsen());
+  absen.halo();
 }

@@ -3,8 +3,8 @@ class Matematika {
 }
 
 void main() {
-  var hasil = Matematika.sum(12, 21);
-  print(hasil);
+  Matematika.sum(12, 21);
+
   print(Matematika.sum(12, 212));
 }
 

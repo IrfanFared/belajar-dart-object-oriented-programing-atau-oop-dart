@@ -4,29 +4,35 @@
 // class child constructor
 // ● Memanggil super constructor hanya bisa dilakukan dalam bentuk Redirecting Constructor
 
-class Hewan {
+class Kue {
   String nama;
+  int waktuPembuatan;
 
-  // Konstruktor kelas induk
-  Hewan(this.nama) {
-    print('Hewan dengan nama $nama diciptakan');
+  Kue(this.nama, this.waktuPembuatan) {
+    print('Membuat kue $nama');
   }
 }
 
-class Anjing extends Hewan {
-  String ras;
+class KueCokelat extends Kue {
+  int jumlahCokelat;
 
-  // Konstruktor kelas turunan
-  Anjing(String nama, this.ras) : super(nama) {
-    print('Anjing dari ras $ras diciptakan');
-  }
-
-  void tampilkanInfo() {
-    print('Nama: $nama, Ras: $ras');
+  KueCokelat(String nama, int waktuPembuatan, this.jumlahCokelat)
+      : super(nama, waktuPembuatan) {
+    print('Menambahkan $jumlahCokelat gram cokelat');
   }
 }
 
 void main() {
-  Anjing anjing = Anjing('Buddy', 'Golden Retriever');
-  anjing.tampilkanInfo();
+  var kueCokelat = KueCokelat('Brownies', 60, 200);
 }
+// Dalam contoh ini:
+
+// Kita memiliki kelas dasar Kue dengan properti nama dan waktuPembuatan.
+// Kelas KueCokelat mewarisi dari kelas Kue dan menambahkan properti jumlahCokelat.
+// Constructor KueCokelat menggunakan super(nama, waktuPembuatan) untuk memanggil constructor kelas induk Kue. Ini memastikan bahwa properti nama dan waktuPembuatan diinisialisasi di kelas induk sebelum menambahkan cokelat.
+// Setelah memanggil super constructor, kode dalam constructor KueCokelat dijalankan.
+
+// Ketika kita membuat objek KueCokelat, urutan eksekusinya adalah:
+
+// Constructor Kue dipanggil (melalui super constructor).
+// Constructor KueCokelat dijalankan.
