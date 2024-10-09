@@ -18,7 +18,10 @@ class Person {
   String nama = "irfan";
   String? alamat;
 
-  Person(this.nama, this.alamat) {}
+  Person(this.nama, this.alamat) {
+    print("hel");
+  }
+
   Person.lain(this.nama);
 }
 
