@@ -21,3 +21,4 @@ void main() {
       21); // jadi kita bisa membuat objek yang sama tapi beda nama objek nya
   print(penjumalahan);
 }
+// Typedef digunakan untuk membuat alias dari tipe fungsi, sehingga Anda dapat menggunakan alias tersebut sebagai anotasi tipe saat mendeklarasikan variabel atau parameter fungsi. Dengan typedef, Anda dapat menentukan tanda tangan fungsi yang harus dipatuhi oleh fungsi lain.

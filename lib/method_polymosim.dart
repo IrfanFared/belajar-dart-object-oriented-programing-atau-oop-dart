@@ -17,7 +17,7 @@ void sayHeloo(SMA sma) {
 
 void main() {
   sayHeloo(Siswa("irfan"));
-  sayHeloo(Siswa("miftah"));
+  sayHeloo(Guru("miftah"));
 
   /// didalam dart bisa mengirim turunanya
 }

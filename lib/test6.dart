@@ -1,18 +1,10 @@
-class Parent {
-  void sayHello() {
-    print('Hello from Parent');
-  }
-}
+class Perkenalan {
+  String? nama;
 
-class Child extends Parent {
-  @override
-  void sayHello() {
-    super.sayHello(); // Memanggil method dari Parent
-    print('Hello from Child');
-  }
+  Perkenalan(this.nama);
 }
 
 void main() {
-  var child = Child();
-  child.sayHello();
+  var Pernalan = Perkenalan("irfan");
+  print(Pernalan.nama);
 }
